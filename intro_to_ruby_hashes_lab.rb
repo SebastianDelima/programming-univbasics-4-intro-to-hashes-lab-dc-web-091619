@@ -1,3 +1,5 @@
+require 'pry'
+
 def new_hash
   return new_hash = {}
 end
@@ -23,6 +25,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
+  binding.pry
   if hash[key] == true 
    return hash[key+1]
   else 
