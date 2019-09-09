@@ -30,6 +30,7 @@ def update_counting_hash(hash, key)
   else 
    return hash[key => 1 ]
   end
+end
 
 #def update_counting_hash(hash, key)
   #if hash.has_key? :key == true
