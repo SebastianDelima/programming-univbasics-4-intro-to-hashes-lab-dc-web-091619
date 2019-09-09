@@ -27,11 +27,12 @@ end
 def update_counting_hash(hash, key)
   if hash[key] == true
     puts "we are in if"
-    return hash[key]+ 1
+    hash[key]+ 1
   else 
     puts "we are inside the else"
-   return hash[key] = 1
+    hash[key] = 1
   end
+  return hash
 end
 
 #def update_counting_hash(hash, key)
