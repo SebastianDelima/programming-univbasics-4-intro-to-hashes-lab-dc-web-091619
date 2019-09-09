@@ -26,7 +26,7 @@ end
 
 def update_counting_hash(hash, key)
   if hash[key] == true
-    "we are in if"
+    puts "we are in if"
     return hash[key]+ 1
   else 
     puts "we are inside the else"
