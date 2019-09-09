@@ -26,7 +26,7 @@ end
 
 def update_counting_hash(hash, key)
   binding.pry
-  if hash[key] == true 
+  if hash.include?(key) == true 
    return hash[key+1]
   else 
    return hash[key => 1 ]
